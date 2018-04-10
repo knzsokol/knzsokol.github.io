@@ -1,0 +1,21 @@
+body{
+    background-color: #4caf50;
+    
+}
+h1, h3,h5 {
+    color: whitesmoke; 
+}
+h2, h4, h6 {color: yellow; 
+}
+p{color: purple; 
+font-weight: 900; 
+text-align: center; 
+}
+.text-rightb { 
+    text-align: right; 
+    color: blue;
+}
+.text-centerr {
+    text-align: center; 
+    color: red;
+}
