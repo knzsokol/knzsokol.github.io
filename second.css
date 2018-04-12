@@ -1,12 +1,20 @@
+html,
 body{ 
-    background-color: purple;
-    text-align: center;
+    background-color: rgb(38, 129, 247);
+    font-family: 'IBM Plex Sans', sans-serif;
 }
-h1{ 
+h1, h2 { 
     color: white; 
 
 }
-p{ 
+h3{
+    font-weight: 900; 
+    color: pink;
+}
+h4{
     font-weight: 900;
-    color: #CCC; 
+    color: #CCC;
+}
+h5{
+    
 }
