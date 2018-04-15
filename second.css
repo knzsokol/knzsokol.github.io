@@ -1,20 +1,52 @@
 html,
 body{ 
-    background-color: rgb(38, 129, 247);
+    background-color: #FFFFFF; 
     font-family: 'IBM Plex Sans', sans-serif;
+    
 }
 h1, h2 { 
-    color: white; 
+    color: rgb(243, 3, 123); 
 
 }
 h3{
     font-weight: 900; 
-    color: pink;
+    color: rgb(243, 76, 107);
 }
 h4{
     font-weight: 900;
-    color: #CCC;
+    color: rgb(241, 25, 126);
 }
-h5{
-    
+.home {
+    text-align: center;
+}
+.home img {
+    display: block;
+    margin: 0 auto; 
+}
+
+nav ul { 
+    list-style: none; 
+    text-align: center; 
+    padding: 0; 
+    margin: 0; 
+}
+nav ul li{
+    display: inline-block;
+    background-color: #8016ac;
+    padding: 10px 22px;
+    margin: 8px;
+}
+a{
+    color: #56BAEC;  
+}
+a:visited {
+    color: rgba(197, 136, 238, 0.966); 
+}
+nav ul li a,
+nav ul li a:visited{
+color: white; 
+text-decoration: none; 
+}
+nav ul li a:hover{ 
+    color: lightcoral; 
 }
