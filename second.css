@@ -3,6 +3,7 @@ body {
   background-color: #ffffff;
   font-family: "IBM Plex Sans", sans-serif;
 }
+
 h1,
 h2 {
   color: #0087c7;
@@ -15,12 +16,9 @@ h4 {
   font-weight: 900;
   color: #0087c7;
 }
+
 .home {
   text-align: center;
-}
-.home img {
-  display: block;
-  margin: 0 auto;
 }
 
 nav ul {
@@ -31,46 +29,27 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  background-color: #8016ac;
-  padding: 10px 22px;
   margin: 8px;
-}
-a {
-  color: #56baec;
-}
-a:visited {
-  color: rgba(197, 136, 238, 0.966);
 }
 nav ul li a,
 nav ul li a:visited {
+  background-color: #8016ac;
+  display: inline-block;
+  padding: 10px 22px;
   color: white;
   text-decoration: none;
 }
 nav ul li a:hover {
-  color: lightcoral;
+  background-color: lightcoral;
+  cursor: pointer;
 }
+
 .container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.column {
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-  box-sizing: border-box;
-}
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
 .areas-of-expertise {
   text-align: center;
 }
